@@ -1,6 +1,7 @@
 def twoSum(myList,n):
-  myList=sorted(myList)
+  #myList=sorted(myList)
   #myList=list(set(myList))
+  myList.sort()
   i=0
   j=len(myList)-1
   ltups=[]
